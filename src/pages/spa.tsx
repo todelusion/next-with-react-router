@@ -29,7 +29,7 @@ function Spa() {
                 <span className="text-gray-400 text-xs">傳統頁面路由</span>
               </div>
               <div className="flex space-x-6">
-                <Link
+                <a
                   href={"/"}
                   className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors"
                 >
@@ -47,8 +47,8 @@ function Spa() {
                     />
                   </svg>
                   首頁
-                </Link>
-                <Link
+                </a>
+                <a
                   href={"/doc"}
                   className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors"
                 >
@@ -67,7 +67,7 @@ function Spa() {
                     />
                   </svg>
                   document
-                </Link>
+                </a>
               </div>
               <div className="ml-auto">
                 <a

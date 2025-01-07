@@ -1,4 +1,5 @@
 .
+├── README.md
 ├── next-env.d.ts
 ├── next.config.js
 ├── output.txt
@@ -13,7 +14,7 @@
 │   ├── pages
 │   │   ├── _app.tsx
 │   │   ├── _document.tsx
-│   │   ├── demo.tsx
+│   │   ├── doc.tsx
 │   │   ├── index.tsx
 │   │   └── spa.tsx
 │   ├── routes
@@ -28,4 +29,4 @@
 ├── tsconfig.json
 └── yarn.lock
 
-8 directories, 21 files
+8 directories, 22 files
