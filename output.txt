@@ -1,0 +1,31 @@
+.
+├── next-env.d.ts
+├── next.config.js
+├── output.txt
+├── package.json
+├── postcss.config.js
+├── src
+│   ├── components
+│   │   ├── Header.tsx
+│   │   └── Navigation.tsx
+│   ├── layouts
+│   │   └── MainLayout.tsx
+│   ├── pages
+│   │   ├── _app.tsx
+│   │   ├── _document.tsx
+│   │   ├── demo.tsx
+│   │   ├── index.tsx
+│   │   └── spa.tsx
+│   ├── routes
+│   │   ├── About.tsx
+│   │   ├── AppRoutes.tsx
+│   │   ├── Contact.tsx
+│   │   └── Home.tsx
+│   ├── styles
+│   │   └── globals.css
+│   └── types
+├── tailwind.config.js
+├── tsconfig.json
+└── yarn.lock
+
+8 directories, 21 files
