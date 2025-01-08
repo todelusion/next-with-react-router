@@ -8,7 +8,6 @@ import { useRouter } from "next/router";
 export default function AppRoutes() {
   const router = useRouter();
   const pathname = router.pathname;
-  console.log(pathname);
   return (
     <Routes>
       <Route path={pathname} element={<Home />} />
