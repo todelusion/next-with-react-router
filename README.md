@@ -144,3 +144,6 @@ const nextConfig = {
    - **原因**：Single-Page Application (SPA) 主要依靠客端（瀏覽器）執行 JavaScript 來切換頁面或組件。
 2. **所有 React Router 包含相關鉤子都應該被包裹在 BrowserRouter / HashRouter / MemoryRouter 中才能正常使用**  
    - **原因**：React Router 的 `<Link>`, `useNavigate`, `useParams` 等功能，都依賴在「Router 容器」內部的 `context`；如果不在其內部使用，這些功能就無法取得路由資訊或更新路徑。  
+
+## 參考資料
+[building-a-spa-with-nextjs](https://colinhacks.com/essays/building-a-spa-with-nextjs)
