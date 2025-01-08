@@ -13,7 +13,7 @@ export default function Home() {
           </div>
           <h1 className="text-5xl font-extrabold text-gray-900 mb-8">
             Next.js + React Router{" "}
-            <span className="text-blue-600">混合路由示例</span>
+            <span className="text-blue-600">混合路由範例</span>
           </h1>
 
           {/* 主要內容區塊 */}
